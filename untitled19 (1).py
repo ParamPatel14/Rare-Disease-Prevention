@@ -460,7 +460,7 @@ Base suggestions on medical best practices and recent research on rare disease m
 # Main execution
 if __name__ == "__main__":
     # Set your Gemini API key (replace with your key or use environment variable)
-    API_KEY = os.getenv('AIzaSyDhhRDWMvhtbJWj9qgZKy79_b3pv_Co3Gg') or 'AIzaSyDhhRDWMvhtbJWj9qgZKy79_b3pv_Co3Gg'
+    API_KEY = os.getenv(' Gemini API key') or ' Gemini API key'
 
     # Configure Gemini model
     model = configure_gemini(API_KEY)
@@ -630,7 +630,7 @@ if __name__ == "__main__":
 
 
     # Get Gemini API key
-    api_key = 'AIzaSyDhhRDWMvhtbJWj9qgZKy79_b3pv_Co3Gg'
+    api_key = 'Gemini API key'
     gemini_model = configure_gemini(api_key)
 
     # Load dataset
